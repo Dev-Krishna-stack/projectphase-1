@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>My Skills</title>
+<style>
+body {
+margin: 0;
+font-family: 'Poppins', sans-serif;
+background-image: url("home3.webp");
+background-repeat: no-repeat;
+background-size: cover;
+height: 100vh;
+color: white;
+display: flex;
+flex-direction: column;
+align-items: center;
+animation: fadeIn 1.5s ease-in;
+}
+nav {
+position: absolute;
+top: 20px;
+right: 20px;
+}
+nav a {
+text-decoration: none;
+color:#001f3f;
+font-weight: bold;
+font-size: 18px;
+transition: background 0.3s;
+}
+nav a:hover {
+  color:white;
+}
+
+ h1 {
+  margin-top: 100px;
+  font-size:40px;
+  color:white;
+}
+
+.skills-content {
+display: flex;
+justify-content: center;
+gap: 10px;
+margin-top: 40px;
+flex-wrap: wrap;
+}
+
+.skills{
+background: rgba(255, 255, 255, 0.1);
+border: 1px solid rgba(255, 255, 255, 0.2);
+border-radius: 12px;
+padding: 30px 20px;
+width: 220px;
+text-align: center;
+box-shadow: 0 0 15px rgba(0,0,0,0.3);
+transition: transform 0.3s, box-shadow 0.3s;
+}
+.skills:hover {
+ transform: scale(1.05);
+ box-shadow: 0 0 25px rgba(255, 255, 255, 0.3);
+}
+.skills h2 {
+ color: #ffffff;
+  font-size: 22px;
+ }
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align:center;
+}
+  </style>
+</head>
+<body>
+<nav>
+    <a href="index.html">HOME</a>
+</nav>
+
+<h1>MY SKILLS</h1>
+
+<div class="skills-content">
+<div class="skills">
+<h2>HTML & CSS</h2>
+</div>
+<div class="skills">
+<h2>JAVASCRIPT</h2>
+</div>
+<div class="skills">
+<h2>JAVA</h2>
+</div>
+</div>
+<footer>
+<p><em> INTERESTED TO ADD MORE TO THIS LIST</em></p>
+</footer>
+</body>
+
+</html>
